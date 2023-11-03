@@ -154,14 +154,11 @@ h2 {
     width: calc(100% - 2rem);
   }
   .row {
-    flex-flow: row-reverse;
     padding:  1rem;
     margin: 0;
+    flex-wrap: wrap !important;
   }
-  .row:nth-child(2n),
-  .row:nth-child(2n + 1) {
-    flex-wrap: wrap;
-  }
+
   .col {
     width: 100%;
   }
